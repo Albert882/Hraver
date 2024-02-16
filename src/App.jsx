@@ -140,14 +140,28 @@ function App() {
               alt="khorvirap"
               className="khorvirap"
             />
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.215332284215!2d44.57356582136234!3d39.87836757071336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4015325d369f0d4b%3A0xeba04cad0e28a010!2z0KXQvtGAINCS0LjRgNCw0L8!5e0!3m2!1sru!2sam!4v1708081212126!5m2!1sru!2sam"
+              style={{ border: "0" }}
+              width="600"
+              height="300"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
           <div className="srah">
             <p>Վեդիի «Եվրոպա» Ռեստորանային համալիր</p>
-            <img
-              src="https://optim.tildacdn.com/tild3931-6330-4766-b838-616138313362/-/resize/760x/-/format/webp/Restoran.jpg"
-              alt="evropa"
-              className="evropa"
-            />
+            <img src="/Img/restoran.jpg" alt="evropa" className="evropa" />
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d486.3632604708654!2d44.72448676272156!3d39.91406941545753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4015367bb67bf047%3A0xab724321a84f63ba!2sArdshinBank!5e0!3m2!1sru!2sam!4v1708102478941!5m2!1sru!2sam"
+              width="600"
+              height="300"
+              style={{ border: "0" }}
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </section>
