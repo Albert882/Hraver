@@ -47,54 +47,56 @@ function App() {
         className="main"
         style={{ fontFamily: "Roboto Mono, monospace" }}
       >
-        <div className="text">
-          <div className="text-1">
-            <p>Սիրով հրավիրում ենք ծեզ</p>
-            <p></p>
-            <p>Մեր հարսանյաց արարողությանը</p>
-          </div>
-          <div className="text-2">
-            <strong>01 Մարտի 2024 թ․</strong>
-          </div>
-          <div className="text-3">
-            <p>Հարգանքով՝</p>
-            <strong>Սերյոժա և Ագապի</strong>
-          </div>
-          <div className="text-4">
-            <p>Մնացել է</p>
-          </div>
-          <div className="clock">
-            <div className="day">
-              {timerDays < 10 ? (
-                <strong>0{timerDays}</strong>
-              ) : (
-                <strong>{timerDays}</strong>
-              )}
-              <span>Օր</span>
+        <div className="main-og">
+          <div className="text">
+            <div className="text-1">
+              <p>Սիրով հրավիրում ենք ծեզ</p>
+              <p></p>
+              <p>Մեր հարսանյաց արարողությանը</p>
             </div>
-            <div className="hour">
-              {timerHours < 10 ? (
-                <strong>0{timerHours}</strong>
-              ) : (
-                <strong>{timerHours}</strong>
-              )}
-              <span>Ժամ</span>
+            <div className="text-2">
+              <strong>01 Մարտի 2024 թ․</strong>
             </div>
-            <div className="minute">
-              {timerMinutes < 10 ? (
-                <strong>0{timerMinutes}</strong>
-              ) : (
-                <strong>{timerMinutes}</strong>
-              )}
-              <span>Րոպե</span>
+            <div className="text-3">
+              <p>Հարգանքով՝</p>
+              <strong>Սերյոժա և Ագապի</strong>
             </div>
-            <div className="second">
-              {timerSeconds < 10 ? (
-                <strong>0{timerSeconds}</strong>
-              ) : (
-                <strong>{timerSeconds}</strong>
-              )}
-              <span>Վայրկյան</span>
+            <div className="text-4">
+              <p>Մնացել է</p>
+            </div>
+            <div className="clock">
+              <div className="day">
+                {timerDays < 10 ? (
+                  <strong>0{timerDays}</strong>
+                ) : (
+                  <strong>{timerDays}</strong>
+                )}
+                <span>Օր</span>
+              </div>
+              <div className="hour">
+                {timerHours < 10 ? (
+                  <strong>0{timerHours}</strong>
+                ) : (
+                  <strong>{timerHours}</strong>
+                )}
+                <span>Ժամ</span>
+              </div>
+              <div className="minute">
+                {timerMinutes < 10 ? (
+                  <strong>0{timerMinutes}</strong>
+                ) : (
+                  <strong>{timerMinutes}</strong>
+                )}
+                <span>Րոպե</span>
+              </div>
+              <div className="second">
+                {timerSeconds < 10 ? (
+                  <strong>0{timerSeconds}</strong>
+                ) : (
+                  <strong>{timerSeconds}</strong>
+                )}
+                <span>Վայրկյան</span>
+              </div>
             </div>
           </div>
         </div>
