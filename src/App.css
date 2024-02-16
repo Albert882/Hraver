@@ -20,9 +20,9 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: end;
   align-items: center;
-  /* background-attachment: fixed; */
+  justify-content: end;
+  background-attachment: fixed;
 }
 
 .body {
@@ -147,7 +147,6 @@
   margin-top: 25px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
 }
 
 .ekexeci,
@@ -161,6 +160,10 @@
   font-size: 12px;
 }
 
+.ekexeci {
+  margin-bottom: 30px;
+}
+
 .khorvirap,
 .evropa {
   width: 55%;
@@ -171,8 +174,8 @@
 }
 
 @media screen and (max-width: 600px) {
-  .khorvirap,.evropa {
+  .khorvirap,
+  .evropa {
     width: 80%;
   }
-  
 }
