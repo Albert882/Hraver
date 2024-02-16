@@ -1,0 +1,178 @@
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("./fonts/RobotoMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/Img/main4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  /* background-attachment: fixed; */
+}
+
+.body {
+  height: 10000px;
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text-1,
+.text-2,
+.text-3,
+.text-4 {
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 12px;
+  line-height: 18px;
+  width: auto;
+}
+
+.clock {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  border-right: 0.5px solid white;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.day > span,
+.hour > span,
+.minute > span,
+.second > span {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.day > strong,
+.hour > strong,
+.minute > strong,
+.second > strong {
+  font-size: 22px;
+}
+
+.second {
+  border: none;
+}
+
+.tragir {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+
+.Psak {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.time {
+  font-size: 9px;
+}
+
+.svg-matani {
+  background-image: url("https://static.tildacdn.com/tild3938-3137-4435-b765-363361613631/Matani.svg");
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.svg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.svg-matani-git {
+  width: 0.7px;
+  height: 20px;
+  background-color: black;
+}
+
+.svg-bakal {
+  background-image: url("https://static.tildacdn.com/tild3132-3834-4531-a265-393231616562/Bazhak.svg");
+  width: 35px;
+  height: 35px;
+}
+
+.vair {
+  font-size: 8px;
+}
+
+.Psak-1 {
+  padding-left: 8px;
+}
+
+.jamanci-kentronner {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ekexeci,
+.srah {
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+
+.khorvirap,
+.evropa {
+  width: 55%;
+  border-radius: 3%;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.39);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.39);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.39);
+}
+
+@media screen and (max-width: 600px) {
+  .khorvirap,.evropa {
+    width: 80%;
+  }
+  
+}
