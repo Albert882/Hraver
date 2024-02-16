@@ -50,7 +50,7 @@ function App() {
         <div className="main-og">
           <div className="text">
             <div className="text-1">
-              <p>Սիրով հրավիրում ենք ծեզ</p>
+              <p>Սիրով հրավիրում ենք ձեզ</p>
               <p></p>
               <p>Մեր հարսանյաց արարողությանը</p>
             </div>
