@@ -18,14 +18,15 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  /* text-align: end; */
 }
 
 .main-og {
   width: 100%;
   height: 100%;
   display: flex;
-  align-items: end;
   justify-content: center;
+  position: relative;
 }
 
 .body {
@@ -37,10 +38,13 @@
 }
 
 .text {
+  position: absolute;
+  bottom: 0px;
   padding-bottom: 20px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  /* gap: 10px; */
+  text-align: end;
 }
 
 .text-1,
@@ -54,6 +58,7 @@
   font-size: 12px;
   line-height: 18px;
   width: auto;
+  margin-bottom: 10px;
 }
 
 .clock {
