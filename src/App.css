@@ -167,7 +167,9 @@
 }
 
 .srah > p,
-.ekexeci > p {
+.srah > strong,
+.ekexeci > p,
+.ekexeci > strong {
   margin-bottom: 10px;
 }
 

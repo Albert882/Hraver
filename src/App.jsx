@@ -51,7 +51,6 @@ function App() {
           <div className="text">
             <div className="text-1">
               <p>Սիրով հրավիրում ենք ձեզ</p>
-              <p></p>
               <p>Մեր հարսանյաց արարողությանը</p>
             </div>
             <div className="text-2">
@@ -59,7 +58,7 @@ function App() {
             </div>
             <div className="text-3">
               <p>Հարգանքով՝</p>
-              <strong>Սերյոժա և Ագապի</strong>
+              <strong>Սերգեյ և Ագապի</strong>
             </div>
             <div className="text-4">
               <p>Մնացել է</p>
@@ -109,7 +108,7 @@ function App() {
           <strong>Օրվա Ծրագիր</strong>
           <div className="Psak">
             <div className="time">
-              <strong>15:00</strong>
+              <strong>15:30</strong>
             </div>
             <div className="svg">
               <div className="svg-matani"></div>
@@ -134,7 +133,9 @@ function App() {
         </div>
         <div className="jamanci-kentronner">
           <div className="ekexeci">
-            <p>Խոր Վիրապի եկեղեցի</p>
+            <strong>Խոր Վիրապի եկեղեցի</strong>
+            <p>Գտնվելու վայր՝</p>
+            <p>Փոքր Վեդի գյուղի մոտ, անմիջապես Հայաստան-Թուրքիա սահմանին</p>
             <img
               src="https://traveltoarmenia.am/wp-content/uploads/2019/03/Khor-Virap-3.jpeg"
               alt="khorvirap"
@@ -151,8 +152,14 @@ function App() {
             ></iframe>
           </div>
           <div className="srah">
-            <p>Վեդիի «Եվրոպա» Ռեստորանային համալիր</p>
-            <img src="/Img/restoran.jpg" alt="evropa" className="evropa" />
+            <strong>Վեդիի «Եվրոպա» Ռեստորանային համալիր</strong>
+            <p>Գտնվելու վայր՝</p>
+            <p>ք.Վեդի, Արարատյան 58/2, Արդշին բանկի ետնամասում</p>
+            <img
+              src="https://scontent.fevn4-2.fna.fbcdn.net/v/t1.6435-9/83920931_1322924824557478_180124838130614272_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=300f58&_nc_ohc=_SyY0FI3TgMAX8ts6Dc&_nc_ht=scontent.fevn4-2.fna&oh=00_AfCXhgxf2dFHO-1JnQjhLXTuRZsqGqU_PIzZ66A7nY-GwA&oe=65F70C8D"
+              alt="evropa"
+              className="evropa"
+            />
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d486.3632604708654!2d44.72448676272156!3d39.91406941545753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4015367bb67bf047%3A0xab724321a84f63ba!2sArdshinBank!5e0!3m2!1sru!2sam!4v1708102478941!5m2!1sru!2sam"
               width="600"
