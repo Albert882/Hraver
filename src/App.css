@@ -18,6 +18,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  /* background-attachment: fixed; */
   /* text-align: end; */
 }
 
@@ -34,6 +35,10 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  /* background-image: url("/Img/Fon3.jpg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .text {
@@ -54,7 +59,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-size: 12px;
+  font-size: 17px;
   line-height: 18px;
   width: auto;
   margin-bottom: 10px;
@@ -83,7 +88,7 @@
 .hour > span,
 .minute > span,
 .second > span {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 14px;
 }
 
@@ -91,7 +96,7 @@
 .hour > strong,
 .minute > strong,
 .second > strong {
-  font-size: 22px;
+  font-size: 28px;
 }
 
 .second {
@@ -102,23 +107,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 14px;
+  font-size: 26px;
 }
 
 .Psak {
+  width: 100%;
   display: flex;
   gap: 10px;
   align-items: center;
+  /* justify-content: space-between; */
+  /* font-size: 22px; */
 }
 
 .time {
-  font-size: 9px;
+  font-size: 20px;
 }
 
 .svg-matani {
   background-image: url("https://static.tildacdn.com/tild3938-3137-4435-b765-363361613631/Matani.svg");
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   display: flex;
   flex-direction: column;
 }
@@ -127,27 +135,43 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 7px;
 }
 
-.svg-matani-git {
-  width: 0.7px;
-  height: 20px;
-  background-color: black;
+.gps,
+.camera,
+.inf {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.tragir > strong {
+  margin-bottom: 15px;
+}
+
+.tragir-git {
+  height: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: goldenrod;
 }
 
 .svg-bakal {
   background-image: url("https://static.tildacdn.com/tild3132-3834-4531-a265-393231616562/Bazhak.svg");
-  width: 35px;
-  height: 35px;
+  width: 55px;
+  height: 55px;
 }
 
 .vair {
-  font-size: 8px;
+  font-size: 13px;
+  /* text-align: center; */
 }
 
-.Psak-1 {
-  padding-left: 8px;
+.vair > strong {
+  font-size: 22px;
 }
 
 .jamanci-kentronner {
@@ -163,7 +187,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 12px;
+  font-size: 16px;
+}
+
+.srah > strong,
+.ekexeci > strong {
+  font-size: 18px;
 }
 
 .srah > p,
@@ -194,6 +223,10 @@
 
 iframe {
   width: 55%;
+  border-radius: 3%;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.39);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.39);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.39);
 }
 
 @media screen and (max-width: 600px) {
